@@ -1,28 +1,15 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { Text, View, ScrollView } from "react-native";
+import React from "react";
+import { styles } from "../constants/styles";
 
-const Message = ({message}) => {
+const Message = ({ message }) => {
   return (
     <View style={styles.messageContainer}>
-      <Text style={styles.messageText}>{message}</Text>
+      <ScrollView style={styles.messageTextContainer}>
+        <Text style={styles.messageText}>{message}</Text>
+      </ScrollView>
     </View>
-  )
-}
+  );
+};
 
-export default Message
-
-const styles = StyleSheet.create({
-    messageContainer: {
-        backgroundColor: "#333333",
-        marginTop: 25,
-        marginBottom:25,
-        borderRadius:8,
-        padding: 8,
-        borderWidth: 2,
-        borderColor: '#0B147C',
-
-      },
-    messageText: {
-        color: "#ffff"
-    },
-})
+export default Message;

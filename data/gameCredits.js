@@ -1,10 +1,25 @@
-const GameCredits= `1. **Objective**: The objective of Tic Tac Toe is to get three of your marks (either X's or O's) in a row, either horizontally, vertically, or diagonally, before your opponent does.
+const GameCredits= `In the realm of X's and O's, Upon the grid they go
+Where two contenders face off, in tic-tac-toe.
+A pencil mark, a battle stark, lines cross like ancient runes.
+Each player seeks, with tactic sleek, to align their three and twos.
 
-2. **Game Board**: The game is played on a 3x3 grid. The grid can be drawn on paper or represented digitally.
+First goes X, with hopes to vex, in the corner she resides,
+Then O's response, a parry, a taunt, beside the X she hides.
+The square becomes a battleground, where silent warriors clash,
+With every mark, they leave their spark, in this timeless match.
 
-7. **Blocking**: The opposing player tries to prevent their opponent from getting three marks in a row by strategically placing their own marks.
+A diagonal attempt, an intercept, the X's make their claim,
+But O is shrewd, not easily subdued, and blocks the path to fame.
+They dance in turns, the board it churns with symbols old as time,
+A line unbroken, a token, a victory sublime.
 
-8. **Tie**: If all nine squares on the grid are filled and neither player has three marks in a row, the game is a tie.
+The tension mounts, the stakes are high, each move a calculated choice,
+As X and O, in endless flow, make their presence voice.
+The game unfolds, a tale untold, a strategic dance of wit,
+Where only one shall claim the throne, the other must submit.
 
-9. **Starting a New Game**: After a game is completed, the players can start a new game, with the player who did not go first in the previous game going first in the new game.`
+The final move, a bold reprove, the triumph now in sight,
+One player reigns, the other wanes, in this cerebral fight.
+Tic-tac-toe, a timeless show, where minds and skills entwine,
+A classic game, a lasting fame, a victory divine.`
 export default GameCredits;
