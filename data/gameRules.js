@@ -1,10 +1,25 @@
-const GameRules= `1. **Objective**: The objective of Tic Tac Toe is to get three of your marks (either X's or O's) in a row, either horizontally, vertically, or diagonally, before your opponent does.
+const GameRules= `You probably alreay know how to play 
+Tic-Tac-Toe. Its a really simple game, 
+right? That's what most people think.
 
-2. **Game Board**: The game is played on a 3x3 grid. The grid can be drawn on paper or represented digitally.
+But if you really wrap your brain around it, 
+you'll discover that Tic-Tac-Toe isnt quite 
+as simple as you think
 
-7. **Blocking**: The opposing player tries to prevent their opponent from getting three marks in a row by strategically placing their own marks.
+Rules for Tic-Tac-Toe
 
-8. **Tie**: If all nine squares on the grid are filled and neither player has three marks in a row, the game is a tie.
+1. The game is played on a grid that's 3 
+squares by 3 squares.
 
-9. **Starting a New Game**: After a game is completed, the players can start a new game, with the player who did not go first in the previous game going first in the new game.`
+2. You are X, your friend (or the
+computer in this case) is 0. Players takes turns
+putting their marks in empty squares.
+
+3. The first player to get 3 of her marks in a 
+row(up, down, across, or diagonally) is the winner.
+
+4. When all 9 squares are full, the game is 
+over. If no player has 3 marks in a row, the
+game ends in a tie.
+`
 export default GameRules;
